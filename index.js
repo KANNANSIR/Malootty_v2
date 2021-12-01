@@ -1732,35 +1732,74 @@ if (!isVerify) return reply(aml.noregis)
 		    ow = "6289505329516@s.whatsapp.net"
 		    cuy = "6289505329516@s.whatsapp.net"
                 if (simple == false) Chan = `
-break
-case 'menu':
-case 'p':
-let pi=index["prepareMessageFromContent"](from,{
-"listMessage":{
-"title":"ʜɪ ᴛʜɪs ɪs ᴍᴇɴᴜ","description":`${""}
-ʜɪ  ${pushname}     
-╔༆ᴄʀᴇᴀᴛᴏʀ⟼ī.ᴀᴍ/ꪶ͢ᴋʀɪꜱʜɴᴀᴅᴀꜱꫂ⁩
-║༄ᴠᴇʀsɪᴏɴ⟼3.0
-║༄ʙᴏᴛɴᴀᴍᴇ⟼ꪶ͢ᴋʀɪᴢ ꜱᴇʀꫂ⁩
-║༄ᴘʀᴇғɪx⟼(ᴍᴜʟᴛɪ ᴘʀᴇғɪx)
-║༄sᴛᴀᴛᴜs⟼ ${publik ? 'ᴘᴜʙʟɪᴄ ɴᴏᴡ' : 'sᴇʟғ ɴᴏᴡ'} 
-╚༄ᴏᴡɴᴇʀ⟼ wa.me/919633687665      
-${tampilHari}
-${" "}
-   ʜɪ ʙʀᴏ ${pushname}   ᴅᴏɴᴛ ᴄʟɪᴄᴋ ᴍᴇɴᴜ
-${""}
-`,"buttonText":" ʟɪsᴛ ᴍᴇɴᴜ ","listType":"SINGLE_SELECT","sections":[{
-"title":"sᴇʟᴇᴄᴛ ᴀ ᴍᴇɴᴜ","rows":[{
-"title":"ping","rowId":"0"
-}
-,{"title":"downloadmenu","rowId":"0"}
-,{"title":"groupmenu","rowId":"0"}
-,{"title":"makermenu","rowId":"0"}
-,{"title":"othermenu","rowId":"0"}
-,{"title":"ownermenu","rowId":"0"}
-,{"title":"help","rowId":"0"}
-,{"title":"owner","rowId":"0"}
-]}]}},{});index.relayWAMessage(pi,{waitForAck:true})
+
+┌───〔 *𝐌𝐀𝐋𝐎𝐎𝐓𝐓𝐘_𝐕𝟐* 〕
+┊
+└───────────𔒝
+🌟${tampilUcapan} ${pushname}
+🗓️ᴅᴀᴛᴇ : ${tampilHari}
+┌───〔ᴀʙᴏᴜᴛ〕
+┊❗ɴᴀᴍᴇ : ${namabot}
+┊❕sᴛᴀᴛᴜs : ${stat}
+┊❗ʙᴀᴛᴛᴇʀʏ : ${battre}
+┊❕sᴇʀᴠᴇʀ : ${Ruri.browserDescription[0]}
+┊❗ʀᴀᴍ : ${RAM}
+┊❕ᴘʀᴇғɪx :〔${prefix}〕
+┊❗ᴅᴇᴠɪᴄᴇ : ${device_manufacturer}
+┊❕ᴛᴏᴛᴀʟ ᴜsᴇʀs : ${user.length}
+┊⚕${prefix}report 
+┊⚕️${prefix}suggest
+┊⚕️${prefix}info
+└───────────𔒝
+┌───〔ᴜsᴇʀ ɪɴғᴏ〕
+┊⚠️ɴᴀᴍᴇ : ${pushname}
+┊⚠️ɴᴜᴍʙᴇʀ : wa.me/${sender.split('@')[0]}
+┊⚠️sᴛᴀᴛᴜs : ${premi}
+┊⚠️ʀᴏʟᴇ : ${role}
+┊⚠️ʙᴀʀs : ${bars}
+┊⚠️ʟɪᴍɪᴛ : ${asu} / Day
+└───────────𔒝
+┌───〔ᴍᴇɴᴜ〕
+┊🔖!downloadmenu
+┊🔰!groupmenu
+┊⚔️!hunt
+┊🎈!info
+┊💎!ownermenu
+┊📧!report 
+┊🎰️!slot
+┊🧧️!suggest
+┊🛠️!toolsmenu
+┊🎲!xox
+└───────────𔒝
+┌───〔 *_ᴛʜᴀɴᴋs ᴛᴏ_* 〕
+┊🌟 𝙰𝙺𝚂𝙷𝙰𝚈
+┊🌟 𝙹𝚉𝙼𝙾𝙳𝚂
+┊🌟 𝙼𝙾𝙽𝙺𝙴𝚈
+┊🌟 sᴘⷮᴀⷷʀⷶʀⷨᴏᴡ𔒝
+└───〔 𝐌𝐀𝐋𝐎𝐎𝐓𝐓𝐘_𝐕𝟐 〕`
+
+if (simple == true) Chan = `
+┌───〔 *𝐌𝐀𝐋𝐎𝐎𝐓𝐓𝐘_𝐕𝟐* 〕
+┊
+└───────────𔒝
+🌟${tampilUcapan} ${pushname}
+🗓️ᴅᴀᴛᴇ : ${tampilHari}
+┌───〔ᴍᴇɴᴜ〕
+┊🔖!downloadmenu
+┊🔰!groupmenu
+┊⚔️!hunt
+┊🎈!info
+┊💎!ownermenu
+┊📧!report 
+┊🎰️!slot
+┊🧧️!suggest
+┊🛠️!toolsmenu
+┊🎲!xox
+└───────────𔒝
+┌───〔 *_ᴛʜᴀɴᴋs ᴛᴏ_* 〕
+┊🌟 𝙺𝚁𝙸𝚂𝙷𝙽𝙰𝙳𝙰𝚂
+┊
+└───〔 𝐌𝐀𝐋𝐎𝐎𝐓𝐓𝐘_𝐕𝟐 〕`
 Ruri.sendMessage(from, wew, image, { quoted: { key: { fromMe: true, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "productMessage":{"product":{"productImage":{"mimetype":"image/jpeg","height":736,"width":736,"jpegThumbnail":fs.readFileSync(`./lib/Malootty.jpg`)},"productId":"3937202479680283","title":"Malootty","currencyCode":"IDR","priceAmount1000":"10000","productImageCount":1},"businessOwnerJid":"0@s.whatsapp.net"}}}, caption: Chan })
                     break
 				case 'toolsmenu':
